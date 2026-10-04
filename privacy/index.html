@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Floatie — Privacy Policy</title>
+<style>
+  :root { --bg:#F5F5FA; --card:#FFFFFF; --text:#16161F; --muted:#5E5E70; --accent:#5B52E8; --line:#E2E2EA; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0D0D1A; --card:#161626; --text:#F2F2FF; --muted:#9898B0; --accent:#8C85FF; --line:#26263A; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  header { display:flex; align-items:center; gap:14px; margin-bottom:8px; }
+  header .logo { width:48px; height:48px; border-radius:14px; background:#1C1B2E; display:grid; place-items:center; }
+  header .logo span { width:26px; height:26px; border-radius:50%; background:#F7F7FA; }
+  h1 { font-size:28px; margin:0; }
+  h2 { font-size:19px; margin:32px 0 8px; }
+  .meta { color:var(--muted); font-size:14px; margin:4px 0 24px; }
+  .langs { display:flex; gap:8px; margin:16px 0 8px; }
+  .langs a { color:var(--accent); text-decoration:none; border:1px solid var(--line); border-radius:999px; padding:4px 12px; font-size:14px; }
+  section.policy { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:8px 24px 24px; margin-top:16px; }
+  ul { padding-left:20px; }
+  li { margin:4px 0; }
+  table { width:100%; border-collapse:collapse; font-size:15px; }
+  th, td { text-align:left; padding:8px 6px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:600; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <header><div class="logo"><span></span></div><h1>Floatie</h1></header>
+  <div class="langs"><a href="#en">English</a><a href="#uk">Українська</a></div>
+
+  <!-- ─────────────────────────────── ENGLISH ─────────────────────────────── -->
+  <section class="policy" id="en" lang="en">
+    <h2 style="margin-top:16px">Privacy Policy</h2>
+    <p class="meta">Effective date: 4 October 2026</p>
+
+    <p>Floatie (“the app”) is a floating translator for Android developed by Shastkiv Ruslan (“we”).
+    This policy explains what data the app handles, why, and what choices you have. In short:
+    <strong>we only process the text you deliberately put into Floatie’s translate card, only to translate it,
+    and we don’t keep it.</strong></p>
+
+    <h2>What Floatie does not do</h2>
+    <ul>
+      <li>It does not read your screen or the contents of other apps.</li>
+      <li>It has no accounts, no sign-up and asks for no personal details.</li>
+      <li>It contains no ads, no analytics and no third-party tracking.</li>
+      <li>It does not sell or share your data for advertising.</li>
+    </ul>
+
+    <h2>Data we process</h2>
+    <table>
+      <tr><th>Data</th><th>Why</th><th>How long</th></tr>
+      <tr><td><strong>Text you type or paste into the translate card</strong>, the selected languages and translation style</td>
+          <td>Sent over an encrypted connection to our server and to OpenAI to produce the translation (and a back-translation that shows what the result means).</td>
+          <td>Not stored by us. The text is passed through and discarded once the translation is returned.</td></tr>
+      <tr><td><strong>An anonymous app identifier</strong> created automatically on first use</td>
+          <td>Lets our server apply fair daily usage limits. It is not linked to your name, email, phone number or Google account.</td>
+          <td>Kept while you use the app; together with it we keep only a per-day count of translation requests.</td></tr>
+      <tr><td><strong>Technical request data</strong> (e.g. IP address, time of request)</td>
+          <td>Handled by our hosting provider to deliver the service and protect it from abuse.</td>
+          <td>Short-lived service logs kept by the provider.</td></tr>
+    </table>
+
+    <h2>Clipboard</h2>
+    <p>When you open the translate card, Floatie checks whether you recently copied some text, to offer a
+    one-tap “translate this” suggestion. The clipboard is read only at that moment, only on your device, and
+    nothing from it is sent anywhere unless you tap the suggestion. When you close the card, the translation is
+    copied to your clipboard so you can paste it.</p>
+
+    <h2>Settings stored on your device</h2>
+    <p>Your preferences (languages, theme, bubble size and position, translation style) are stored locally on
+    your device and are removed when you uninstall the app.</p>
+
+    <h2>Service providers</h2>
+    <ul>
+      <li><strong>Supabase</strong> (servers in the European Union) — hosts our translation endpoint and the
+          anonymous usage counters. <a href="https://supabase.com/privacy">supabase.com/privacy</a></li>
+      <li><strong>OpenAI</strong> — performs the translation. Under OpenAI’s API terms, data sent through the API is
+          not used to train their models and may be retained for up to 30 days for abuse monitoring.
+          <a href="https://openai.com/policies/privacy-policy">openai.com/policies/privacy-policy</a></li>
+    </ul>
+
+    <h2>Permissions</h2>
+    <ul>
+      <li><strong>Display over other apps</strong> — to show the bubble and the translate card on top of other apps.</li>
+      <li><strong>Notifications and foreground service</strong> — Android requires a visible notification while the bubble is running.</li>
+      <li><strong>Run at startup</strong> — to bring the bubble back after a restart if you left it on.</li>
+      <li><strong>Internet</strong> — to request translations. <strong>Vibration</strong> — for tap feedback (can be turned off).</li>
+    </ul>
+
+    <h2>Your rights</h2>
+    <p>You can stop using the service at any time by stopping the bubble or uninstalling the app. If you are in
+    the EU/EEA or another region with similar laws, you may request access to or deletion of the data associated
+    with your anonymous identifier by contacting us (see Contact below). Because we don’t know who you are, please include the
+    approximate dates you used the app.</p>
+
+    <h2>Children</h2>
+    <p>Floatie is not directed at children under 13 and we do not knowingly process their data.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, we will update this page and the effective date above.</p>
+
+    <h2>Contact</h2>
+    <p>Shastkiv Ruslan. For questions or data requests, use the developer contact email shown on
+    <a href="https://play.google.com/store/apps/details?id=dev.shastkiv.floatie">Floatie’s Google Play page</a>.</p>
+  </section>
+
+  <!-- ────────────────────────────── УКРАЇНСЬКА ────────────────────────────── -->
+  <section class="policy" id="uk" lang="uk">
+    <h2 style="margin-top:16px">Політика конфіденційності</h2>
+    <p class="meta">Набуває чинності: 4 жовтня 2026 року</p>
+
+    <p>Floatie («застосунок») — плаваючий перекладач для Android, розроблений Shastkiv Ruslan («ми»).
+    Ця політика пояснює, які дані обробляє застосунок, навіщо і який у вас вибір. Коротко:
+    <strong>ми обробляємо лише текст, який ви самі вводите в картку перекладу Floatie, лише для перекладу,
+    і не зберігаємо його.</strong></p>
+
+    <h2>Чого Floatie не робить</h2>
+    <ul>
+      <li>Не читає ваш екран і вміст інших застосунків.</li>
+      <li>Не має акаунтів, реєстрації й не запитує особистих даних.</li>
+      <li>Не містить реклами, аналітики та стороннього відстеження.</li>
+      <li>Не продає й не передає ваші дані для реклами.</li>
+    </ul>
+
+    <h2>Які дані ми обробляємо</h2>
+    <table>
+      <tr><th>Дані</th><th>Навіщо</th><th>Скільки зберігаються</th></tr>
+      <tr><td><strong>Текст, який ви вводите або вставляєте в картку перекладу</strong>, вибрані мови та стиль перекладу</td>
+          <td>Через зашифроване з'єднання надсилаються на наш сервер і в OpenAI, щоб отримати переклад (і зворотний переклад, що показує зміст результату).</td>
+          <td>Ми їх не зберігаємо. Текст лише передається далі й відкидається після повернення перекладу.</td></tr>
+      <tr><td><strong>Анонімний ідентифікатор застосунку</strong>, що створюється автоматично під час першого використання</td>
+          <td>Дає змогу серверу застосовувати справедливі денні ліміти. Він не пов'язаний з вашим ім'ям, поштою, номером телефону чи акаунтом Google.</td>
+          <td>Поки ви користуєтеся застосунком; разом із ним ми зберігаємо лише кількість запитів на переклад за кожен день.</td></tr>
+      <tr><td><strong>Технічні дані запиту</strong> (наприклад, IP-адреса, час запиту)</td>
+          <td>Обробляються нашим хостинг-провайдером для роботи сервісу та захисту від зловживань.</td>
+          <td>Короткочасні службові журнали провайдера.</td></tr>
+    </table>
+
+    <h2>Буфер обміну</h2>
+    <p>Коли ви відкриваєте картку перекладу, Floatie перевіряє, чи ви нещодавно щось скопіювали, щоб запропонувати
+    перекласти це одним дотиком. Буфер читається лише в цей момент і лише на вашому пристрої, і нічого з нього нікуди
+    не надсилається, доки ви не натиснете підказку. Коли ви закриваєте картку, переклад копіюється в буфер, щоб ви могли
+    його вставити.</p>
+
+    <h2>Налаштування на вашому пристрої</h2>
+    <p>Ваші налаштування (мови, тема, розмір і положення бульбашки, стиль перекладу) зберігаються лише на пристрої й
+    видаляються разом із застосунком.</p>
+
+    <h2>Постачальники послуг</h2>
+    <ul>
+      <li><strong>Supabase</strong> (сервери в Європейському Союзі) — розміщує наш сервіс перекладу та анонімні лічильники
+          використання. <a href="https://supabase.com/privacy">supabase.com/privacy</a></li>
+      <li><strong>OpenAI</strong> — виконує переклад. Згідно з умовами API OpenAI, дані, надіслані через API, не використовуються
+          для навчання їхніх моделей і можуть зберігатися до 30 днів для виявлення зловживань.
+          <a href="https://openai.com/policies/privacy-policy">openai.com/policies/privacy-policy</a></li>
+    </ul>
+
+    <h2>Дозволи</h2>
+    <ul>
+      <li><strong>Показ поверх інших застосунків</strong> — щоб показувати бульбашку й картку перекладу над іншими застосунками.</li>
+      <li><strong>Сповіщення та фоновий сервіс</strong> — Android вимагає видиме сповіщення, поки бульбашка працює.</li>
+      <li><strong>Запуск під час увімкнення</strong> — щоб повернути бульбашку після перезавантаження, якщо ви її не вимикали.</li>
+      <li><strong>Інтернет</strong> — для запитів на переклад. <strong>Вібрація</strong> — для відгуку на дотик (можна вимкнути).</li>
+    </ul>
+
+    <h2>Ваші права</h2>
+    <p>Ви можете будь-коли припинити користування сервісом, зупинивши бульбашку або видаливши застосунок. Якщо ви перебуваєте
+    в ЄС/ЄЕЗ або іншому регіоні з подібним законодавством, ви можете попросити доступ до даних, пов'язаних із вашим анонімним
+    ідентифікатором, або їх видалення, звернувшись до нас (див. «Контакти» нижче). Оскільки ми не знаємо, хто ви, будь ласка, вкажіть приблизні дати
+    користування застосунком.</p>
+
+    <h2>Діти</h2>
+    <p>Floatie не призначений для дітей до 13 років, і ми свідомо не обробляємо їхніх даних.</p>
+
+    <h2>Зміни</h2>
+    <p>Якщо ця політика зміниться, ми оновимо цю сторінку та дату набрання чинності вище.</p>
+
+    <h2>Контакти</h2>
+    <p>Shastkiv Ruslan. З питаннями чи запитами щодо даних пишіть на контактну адресу розробника, вказану на
+    <a href="https://play.google.com/store/apps/details?id=dev.shastkiv.floatie">сторінці Floatie в Google Play</a>.</p>
+  </section>
+</main>
+</body>
+</html>
